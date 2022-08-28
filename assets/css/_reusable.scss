@@ -1,0 +1,35 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 7rem 0 2rem;
+}
+
+.section__title,
+.breadcrumb__title {
+  font-size: var(--h1-font-size);
+}
+
+.section__title,
+.breadcrumb__subtitle {
+  margin-bottom: var(--mb-3);
+}
+
+.section__title,
+.breadcrumb__title,
+.breadcrumb__subtitle {
+  text-align: center;
+}
+
+.breadcrumb__subtitle span {
+  color: var(--first-color);
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+}
